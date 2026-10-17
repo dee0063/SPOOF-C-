@@ -1,4 +1,3 @@
-// src/ui/main.cpp — точка входа UI-слоя
 #include <iostream>
 #include "menu.h"
 

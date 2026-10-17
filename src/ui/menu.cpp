@@ -1,4 +1,3 @@
-// src/ui/menu.cpp — консольное меню и логика вывода
 #include "menu.h"
 #include <iostream>
 
