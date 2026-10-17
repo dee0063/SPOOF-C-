@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "/usr/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Windows-MSVC",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/*/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "C:/Program Files (x86)/Windows Kits/*/Include/10.0.*.shared/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "windows-vc-x64"
+        }
+    ],
+    "version": 4
+}
