@@ -1,3 +1,4 @@
+// src/driver/spoof_driver.cpp — код драйвера (ядро Windows)
 #include <ntddk.h>
 
 // Driver entry point
