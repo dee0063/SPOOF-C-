@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Desktop\spof_C++\SPOOF-C-\src\ui\main.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Desktop\spof_C++\SPOOF-C-\src\ui\menu.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Desktop\spof_C++\SPOOF-C-\src\ui\input.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Desktop\spof_C++\SPOOF-C-\src\registry\reg_ops.cpp">
+      <Filter>Registry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Desktop\spof_C++\SPOOF-C-\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Registry">
+      <UniqueIdentifier>{9773FB4F-2E0C-3FD0-97D6-6A72C65AB31F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{5F811151-C04B-32D8-8863-17074E32E9E8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

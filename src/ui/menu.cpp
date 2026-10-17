@@ -1,14 +1,25 @@
 #include "menu.h"
 #include <iostream>
-#include <string>    // <-- ДОБАВЛЕНО: обязательно для std::string и std::getline
-#include <limits>    // <-- ДОБАВЛЕНО: для корректной очистки буфера ввода
+#include <string>
+#include <limits>
 
+// Заглушки
+void spoofCPU() { std::cout << "[*] Spoof CPU Serial Number...\n"; }
+void spoofBaseboardSerial() { std::cout << "[*] Spoof Baseboard Serial Number...\n"; }
+void spoofChassisSerial() { std::cout << "[*] Spoof Chassis Serial Number...\n"; }
+void spoofBIOSVersionAndSerial() { std::cout << "[*] Spoof BIOS Version & Serial...\n"; }
+void spoofMACAddresses() { std::cout << "[*] Spoof MAC Addresses (All Cards)...\n"; }
+void spoofUUID_GUID() { std::cout << "[*] Spoof UUID / MachineGuid...\n"; }
+void executeAllProtections() { std::cout << "[*] Executing full HWID spoof...\n"; }
+void restoreOriginalHWIDs() { std::cout << "[*] Restoring original HWIDs...\n"; }
+
+// Реализация printBanner (ТОЛЬКО ЗДЕСЬ!)
 void printBanner() {
     std::cout << "\n";
     std::cout << "██████╗ ██████╗ ██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███████╗\n";
     std::cout << "██╔══██╗██╔══██╗██║    ██║██╔════╝██║     ██╔═══██╗██╔══██╗██╔════╝\n";
     std::cout << "██████╔╝██████╔╝██║ █╗ ██║█████╗  ██║     ██║   ██║██████╝█████╗  \n";
-    std::cout << "██╔═══╝ ██╔══██╗██║███╗██║██╔══╝  ██║     ██║   ██║██╔══██╗██╔══╝  \n";
+    std::cout << "██╔═══╝ ██╔══██╗██║███╗██║██╔══╝  ██║     ██║   ██║██══██╗██╔══╝  \n";
     std::cout << "██║     ██████╔╝╚██████╔╝███████╗███████╗╚██████╝██║  ██║███████╗\n";
     std::cout << "╚═╝     ╚═════╝  ╚══╝╚══╝ ══════╝╚══════╝ ═════╝ ╚═╝  ╚═╝╚══════╝\n";
     std::cout << "                                                                    \n";
@@ -16,6 +27,7 @@ void printBanner() {
     std::cout << "\n";
 }
 
+// Реализация menuShow
 void menuShow() {
     printBanner();
     while (true) {
@@ -36,46 +48,32 @@ void menuShow() {
         if (input.empty()) continue;
 
         switch (input[0]) {
-            case '1': spoofCPU(); break;
-            case '2': spoofBaseboardSerial(); break;
-            case '3': spoofChassisSerial(); break;
-            case '4': spoofBIOSVersionAndSerial(); break;
-            case '5': spoofMACAddresses(); break;
-            case '6': spoofUUID_GUID(); break;
-            case '7': executeAllProtections(); break;
-            case '8': restoreOriginalHWIDs(); break;
-            case '9': 
-                std::cout << "\n[*] Exiting...\n"; 
-                return;
+        case '1': spoofCPU(); break;
+        case '2': spoofBaseboardSerial(); break;
+        case '3': spoofChassisSerial(); break;
+        case '4': spoofBIOSVersionAndSerial(); break;
+        case '5': spoofMACAddresses(); break;
+        case '6': spoofUUID_GUID(); break;
+        case '7': executeAllProtections(); break;
+        case '8': restoreOriginalHWIDs(); break;
+        case '9':
+            std::cout << "\n[*] Exiting...\n";
+            return;
         }
 
         std::cout << "\n[*] Press any key to continue...";
-        
-        // УЛУЧШЕНИЕ: Более надежный способ ждать нажатия клавиши, 
-        // который не ломается, если пользователь введет несколько символов
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         std::cin.get();
     }
 }
 
+// Реализация readInput
 std::string readInput(const std::string& prompt) {
     std::cout << prompt;
     std::string line;
     if (!std::getline(std::cin, line)) return "";
-    
-    // Удаляем символ возврата каретки, если он есть (актуально для Windows)
     if (!line.empty() && line.back() == '\r') {
         line.pop_back();
     }
     return line;
 }
-
-// Stub функции (заглушки)
-void spoofCPU() { std::cout << "[*] Spoof CPU Serial Number...\n"; }
-void spoofBaseboardSerial() { std::cout << "[*] Spoof Baseboard Serial Number...\n"; }
-void spoofChassisSerial() { std::cout << "[*] Spoof Chassis Serial Number...\n"; }
-void spoofBIOSVersionAndSerial() { std::cout << "[*] Spoof BIOS Version & Serial...\n"; }
-void spoofMACAddresses() { std::cout << "[*] Spoof MAC Addresses (All Cards)...\n"; }
-void spoofUUID_GUID() { std::cout << "[*] Spoof UUID / MachineGuid...\n"; }
-void executeAllProtections() { std::cout << "[*] Executing full HWID spoof...\n"; }
-void restoreOriginalHWIDs() { std::cout << "[*] Restoring original HWIDs...\n"; }

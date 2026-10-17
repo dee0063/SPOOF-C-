@@ -1,2 +1,3 @@
-C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/user/Desktop/spof_C++/SPOOF-C-/out/build/x64-Debug/CMakeFiles/TTY_SPOOFER.dir
+C:/Users/user/Desktop/spof_C++/SPOOF-C-/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/spof_C++/SPOOF-C-/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

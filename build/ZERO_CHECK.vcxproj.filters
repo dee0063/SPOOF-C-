@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Desktop\spof_C++\SPOOF-C-\build\CMakeFiles\3f37f7a151dc2c68df27fc07796a94c2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4EBB15B7-5DFA-36E5-97E0-D2AB4CAC4F0B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+C:/Users/user/Desktop/spof_C++/SPOOF-C-/build/CMakeFiles/TTY_SPOOFER.dir
+C:/Users/user/Desktop/spof_C++/SPOOF-C-/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/user/Desktop/spof_C++/SPOOF-C-/build/CMakeFiles/ZERO_CHECK.dir

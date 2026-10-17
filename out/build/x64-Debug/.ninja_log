@@ -1,0 +1,4 @@
+# ninja log v7
+33	731	8139756687514240	CMakeFiles/TTY_SPOOFER.dir/src/ui/main.cpp.obj	d286f8c3312c3efb
+26	812	8139756687436943	CMakeFiles/TTY_SPOOFER.dir/src/ui/input.cpp.obj	cc3614536f5387b0
+19	1128	8139756687366322	CMakeFiles/TTY_SPOOFER.dir/src/registry/reg_ops.cpp.obj	4c30f470562ab12
