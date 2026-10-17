@@ -1,0 +1,1192 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/"
+    found: "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Virtual Studio C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Virtual Studio C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Virtual Studio C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\"
+        - "D:\\Virtual Studio C++\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\maksp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\maksp\\.dotnet\\tools"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Virtual Studio C++\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug"
+      ENV{INCLUDE}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\include"
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\include"
+        - "D:\\Virtual Studio C++\\VC\\Auxiliary\\VS\\include"
+        - "D:\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+      (C) ?????????? ?????????? (Microsoft Corporation).  ??? ????? ????????.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/build/x64-Debug/CMakeFiles/4.3.1-msvc1/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1347 (message)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        ??????????: ????????? ?????:  C:\\Users\\maksp\\Desktop\\spoofer C++\\TTY-SPOOFER-DAYZ-CPP\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "??????????: ????????? ?????:  "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Virtual Studio C++/Common7/IDE/"
+      - "D:/Virtual Studio C++/Common7/Tools/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/maksp/.dotnet/tools/"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Virtual Studio C++/VC/vcpkg/"
+    searched_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Virtual Studio C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Virtual Studio C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Virtual Studio C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\"
+        - "D:\\Virtual Studio C++\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\maksp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\maksp\\.dotnet\\tools"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Virtual Studio C++\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Virtual Studio C++/Common7/IDE/"
+      - "D:/Virtual Studio C++/Common7/Tools/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/maksp/.dotnet/tools/"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Virtual Studio C++/VC/vcpkg/"
+    searched_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "D:/Windows Kits/10/bin/x64/lld-link.com"
+      - "D:/Windows Kits/10/bin/x64/lld-link.exe"
+      - "D:/Windows Kits/10/bin/x64/lld-link"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/lld-link"
+      - "D:/Virtual Studio C++/Common7/Tools/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/Tools/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/Tools/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/maksp/.dotnet/tools/lld-link.com"
+      - "C:/Users/maksp/.dotnet/tools/lld-link.exe"
+      - "C:/Users/maksp/.dotnet/tools/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/Virtual Studio C++/VC/vcpkg/lld-link.com"
+      - "D:/Virtual Studio C++/VC/vcpkg/lld-link.exe"
+      - "D:/Virtual Studio C++/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Virtual Studio C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Virtual Studio C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Virtual Studio C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\"
+        - "D:\\Virtual Studio C++\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\maksp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\maksp\\.dotnet\\tools"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Virtual Studio C++\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Virtual Studio C++/Common7/IDE/"
+      - "D:/Virtual Studio C++/Common7/Tools/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/maksp/.dotnet/tools/"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Virtual Studio C++/VC/vcpkg/"
+    searched_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Virtual Studio C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Virtual Studio C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Virtual Studio C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\"
+        - "D:\\Virtual Studio C++\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\maksp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\maksp\\.dotnet\\tools"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Virtual Studio C++\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Virtual Studio C++/Common7/IDE/"
+      - "D:/Virtual Studio C++/Common7/Tools/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/maksp/.dotnet/tools/"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Virtual Studio C++/VC/vcpkg/"
+    searched_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/mt.com"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/mt.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/mt"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/mt"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/mt"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
+    found: "D:/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Virtual Studio C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Virtual Studio C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Virtual Studio C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\"
+        - "D:\\Virtual Studio C++\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\maksp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\maksp\\.dotnet\\tools"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Virtual Studio C++\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Virtual Studio C++/Common7/IDE/"
+      - "D:/Virtual Studio C++/Common7/Tools/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/maksp/.dotnet/tools/"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Virtual Studio C++/VC/vcpkg/"
+    searched_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Virtual Studio C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Virtual Studio C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Virtual Studio C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\"
+        - "D:\\Virtual Studio C++\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\maksp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\maksp\\.dotnet\\tools"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Virtual Studio C++\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/"
+    found: "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Virtual Studio C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Virtual Studio C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Virtual Studio C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\"
+        - "D:\\Virtual Studio C++\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\maksp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\maksp\\.dotnet\\tools"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Virtual Studio C++\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug"
+      ENV{INCLUDE}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\include"
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\include"
+        - "D:\\Virtual Studio C++\\VC\\Auxiliary\\VS\\include"
+        - "D:\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+      (C) ?????????? ?????????? (Microsoft Corporation).  ??? ????? ????????.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/build/x64-Debug/CMakeFiles/4.3.1-msvc1/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1347 (message)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        ??????????: ????????? ?????:  C:\\Users\\maksp\\Desktop\\spoofer C++\\TTY-SPOOFER-DAYZ-CPP\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "??????????: ????????? ?????:  "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Virtual Studio C++/Common7/IDE/"
+      - "D:/Virtual Studio C++/Common7/Tools/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/maksp/.dotnet/tools/"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Virtual Studio C++/VC/vcpkg/"
+    searched_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "D:/Windows Kits/10/bin/x64/lld-link.com"
+      - "D:/Windows Kits/10/bin/x64/lld-link.exe"
+      - "D:/Windows Kits/10/bin/x64/lld-link"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/lld-link"
+      - "D:/Virtual Studio C++/Common7/Tools/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/Tools/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/Tools/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/maksp/.dotnet/tools/lld-link.com"
+      - "C:/Users/maksp/.dotnet/tools/lld-link.exe"
+      - "C:/Users/maksp/.dotnet/tools/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/Virtual Studio C++/VC/vcpkg/lld-link.com"
+      - "D:/Virtual Studio C++/VC/vcpkg/lld-link.exe"
+      - "D:/Virtual Studio C++/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Virtual Studio C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Virtual Studio C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Virtual Studio C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\"
+        - "D:\\Virtual Studio C++\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\maksp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\maksp\\.dotnet\\tools"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Virtual Studio C++\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:596 (enable_language)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:569 (__windows_compiler_msvc_enable_rc)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Virtual Studio C++/Common7/IDE/"
+      - "D:/Virtual Studio C++/Common7/Tools/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/maksp/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/maksp/.dotnet/tools/"
+      - "D:/Virtual Studio C++/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Virtual Studio C++/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug/bin/"
+      - "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug/sbin/"
+      - "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug/"
+    searched_directories:
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/rc.com"
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/rc.exe"
+      - "D:/Virtual Studio C++/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/rc"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/rc.com"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/rc.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/VC/vcpackages/rc"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "D:/Virtual Studio C++/MSBuild/Current/Bin/Roslyn/rc"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "D:/Virtual Studio C++/Team Tools/DiagnosticsHub/Collector/rc"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
+      - "D:/Virtual Studio C++/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
+    found: "D:/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Virtual Studio C++\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Virtual Studio C++\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Virtual Studio C++\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\"
+        - "D:\\Virtual Studio C++\\Common7\\Tools\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\maksp\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\maksp\\.dotnet\\tools"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Virtual Studio C++\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Virtual Studio C++\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/install/x64-Debug"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jcgl06"
+      binary: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jcgl06"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jcgl06'
+        
+        Run Build Command(s): "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8bf7d
+        [1/2] "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe"  /nologo -D_MBCS  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8bf7d.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_8bf7d.dir\\ /FS -c "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_8bf7d.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_8bf7d.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_8bf7d.exe /implib:cmTC_8bf7d.lib /pdb:cmTC_8bf7d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dpai5h"
+      binary: "C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dpai5h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/maksp/Desktop/spoofer C++/TTY-SPOOFER-DAYZ-CPP/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dpai5h'
+        
+        Run Build Command(s): "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d6e8e
+        [1/2] "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d6e8e.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_d6e8e.dir\\ /FS -c "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "D:\\Virtual Studio C++\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\cmTC_d6e8e.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "D:\\Virtual Studio C++\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_d6e8e.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_d6e8e.exe /implib:cmTC_d6e8e.lib /pdb:cmTC_d6e8e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Virtual Studio C++/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...
