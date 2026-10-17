@@ -1,3 +1,4 @@
+// include/menu.h — объявления функций UI-слоя
 #pragma once
 #include <iostream>
 

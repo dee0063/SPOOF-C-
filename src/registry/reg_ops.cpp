@@ -1,3 +1,4 @@
+// src/registry/reg_ops.cpp — Win32 API для чтения/записи реестра
 #include "reg_ops.h"
 #include <iostream>
 

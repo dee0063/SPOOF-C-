@@ -1,3 +1,4 @@
+// include/reg_ops.h — объявления функций работы с реестром
 #pragma once
 #include <windows.h>
 #include <string>
