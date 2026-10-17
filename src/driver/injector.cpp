@@ -1,3 +1,4 @@
+// src/driver/injector.cpp — загрузка драйвера в ядро и вызов функций
 #include <ntddk.h>
 
 // Load spoof_driver.sys into kernel memory and call its functions.
