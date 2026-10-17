@@ -1,5 +1,7 @@
 #include "menu.h"
 #include <iostream>
+#include <string>    // <-- ДОБАВЛЕНО: обязательно для std::string и std::getline
+#include <limits>    // <-- ДОБАВЛЕНО: для корректной очистки буфера ввода
 
 void printBanner() {
     std::cout << "\n";
@@ -42,11 +44,17 @@ void menuShow() {
             case '6': spoofUUID_GUID(); break;
             case '7': executeAllProtections(); break;
             case '8': restoreOriginalHWIDs(); break;
-            case '9': std::cout << "\n[*] Exiting...\n"; return;
+            case '9': 
+                std::cout << "\n[*] Exiting...\n"; 
+                return;
         }
 
         std::cout << "\n[*] Press any key to continue...";
-        char dummy; std::cin >> dummy;
+        
+        // УЛУЧШЕНИЕ: Более надежный способ ждать нажатия клавиши, 
+        // который не ломается, если пользователь введет несколько символов
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::cin.get();
     }
 }
 
@@ -54,12 +62,15 @@ std::string readInput(const std::string& prompt) {
     std::cout << prompt;
     std::string line;
     if (!std::getline(std::cin, line)) return "";
-    // Remove carriage return if present (Windows console input)
-    if (!line.empty() && line.back() == '\r') line.pop_back();
+    
+    // Удаляем символ возврата каретки, если он есть (актуально для Windows)
+    if (!line.empty() && line.back() == '\r') {
+        line.pop_back();
+    }
     return line;
 }
 
-// Stub функции — будут заменены на реальные вызовы драйвера/реестра
+// Stub функции (заглушки)
 void spoofCPU() { std::cout << "[*] Spoof CPU Serial Number...\n"; }
 void spoofBaseboardSerial() { std::cout << "[*] Spoof Baseboard Serial Number...\n"; }
 void spoofChassisSerial() { std::cout << "[*] Spoof Chassis Serial Number...\n"; }
