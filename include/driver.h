@@ -1,4 +1,3 @@
-// include/driver.h — объявления функций драйвера и инъектора
 #pragma once
 #include <ntstatus.h>
 
